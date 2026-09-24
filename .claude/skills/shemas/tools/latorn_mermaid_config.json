@@ -1,0 +1,36 @@
+{
+    "theme": "base",
+    "themeVariables": {
+        "fontFamily": "Inter, \"Segoe UI\", Arial, sans-serif",
+        "fontSize": "12px",
+        "textColor": "#5f6368",
+        "primaryColor": "#f7f8fa",
+        "primaryTextColor": "#5f6368",
+        "primaryBorderColor": "#e5e7eb",
+        "secondaryColor": "#eff4ff",
+        "secondaryTextColor": "#5f6368",
+        "secondaryBorderColor": "#2563eb",
+        "tertiaryColor": "#f1faf4",
+        "tertiaryTextColor": "#5f6368",
+        "tertiaryBorderColor": "#16a34a",
+        "lineColor": "#8a8f98",
+        "nodeBorder": "#e5e7eb",
+        "clusterBkg": "#f7f8fa",
+        "clusterBorder": "#e5e7eb",
+        "edgeLabelBackground": "transparent",
+        "mainBkg": "transparent"
+    },
+    "themeCSS": ".label, .nodeLabel, .edgeLabel { font-family: Inter, \"Segoe UI\", Arial, sans-serif; font-weight: 400; } .node rect, .node polygon, .node path, .cluster rect { rx: 10px; ry: 10px; } .cluster rect { fill: #f7f8fa; stroke: #e5e7eb; } .edgePath .path, .flowchart-link { stroke-width: 1.25px; } .node rect { stroke-width: 1px; } .label text, .nodeLabel, .edgeLabel { fill: #5f6368; } .edgeLabel rect, .edgeLabel .labelBkg { fill: transparent; background-color: transparent; } .marker { fill: #8a8f98; stroke: #8a8f98; }",
+    "flowchart": {
+        "htmlLabels": false,
+        "curve": "linear",
+        "nodeSpacing": 32,
+        "rankSpacing": 48,
+        "diagramPadding": 8,
+        "padding": 12,
+        "useMaxWidth": true
+    },
+    "sequence": {
+        "useMaxWidth": true
+    }
+}

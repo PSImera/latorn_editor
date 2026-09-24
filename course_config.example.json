@@ -1,0 +1,12 @@
+{
+    "default_course": "course_name",
+    "courses": {
+        "course_name": "latorn-course-id-or-slug"
+    },
+    "download": [
+        "course_name"
+    ],
+    "upload": [
+        "course_name"
+    ]
+}

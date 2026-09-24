@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="68.75 5 478.5 319" width="100%">
+	<defs>
+		<style>
+			.c-neutral rect { fill: #1b2436; stroke: #35435c; }
+			.ts   { fill: #d3dbe6; font-family: Inter, "Segoe UI", Arial, sans-serif; }
+			.arr  { stroke: #9aa6b8; stroke-width: 1.25; fill: none; }
+			.skip { stroke: #60a5fa; stroke-width: 1.5; fill: none; }
+			.sum  { fill: #1b2436; stroke: #9aa6b8; stroke-width: 1.25; }
+		</style>
+		<marker id="arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="7" markerHeight="5" orient="auto">
+			<path d="M0,0 L10,3.5 L0,7 z" fill="#9aa6b8"/>
+		</marker>
+		<marker id="arrowblue" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="7" markerHeight="5" orient="auto">
+			<path d="M0,0 L10,3.5 L0,7 z" fill="#60a5fa"/>
+		</marker>
+	</defs>
+
+	<rect x="68.75" y="5" width="478.5" height="319" fill="#0b1220"/>
+
+	<text class="ts" x="264" y="36" font-size="13" font-weight="600" text-anchor="middle">x</text>
+
+	<path class="arr" d="M 264 44 L 264 68" marker-end="url(#arrow)"/>
+
+	<g class="c-neutral">
+		<rect x="164" y="72" width="200" height="48" rx="10"/>
+		<rect x="164" y="168" width="200" height="48" rx="10"/>
+	</g>
+	<text class="ts" x="264" y="101" font-size="12" font-weight="500" text-anchor="middle">слой весов</text>
+	<text class="ts" x="264" y="197" font-size="12" font-weight="500" text-anchor="middle">слой весов</text>
+
+	<path class="arr" d="M 264 120 L 264 164" marker-end="url(#arrow)"/>
+	<text class="ts" x="276" y="147" font-size="11">relu</text>
+
+	<path class="arr" d="M 264 216 L 264 244" marker-end="url(#arrow)"/>
+
+	<circle class="sum" cx="264" cy="260" r="14"/>
+	<text class="ts" x="264" y="265" font-size="13" text-anchor="middle">+</text>
+
+	<path class="arr" d="M 264 274 L 264 300" marker-end="url(#arrow)"/>
+	<text class="ts" x="276" y="292" font-size="11">relu</text>
+
+	<path class="skip" d="M 264 52 L 456 52 L 456 260 L 282 260" marker-end="url(#arrowblue)"/>
+	<text class="ts" x="468" y="152" font-size="12" font-weight="500">identity</text>
+
+	<text class="ts" x="148" y="148" font-size="12" font-weight="500" text-anchor="end">F(x)</text>
+	<text class="ts" x="148" y="264" font-size="12" font-weight="500" text-anchor="end">F(x) + x</text>
+</svg>
